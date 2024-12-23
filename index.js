@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true }));
 
 
-const backend_port = process.env.BACKEND_PORT || 3000;
+const PORT = process.env.PORT || 3000;
+
 app.use(cors({
     origin: '*', // Allow requests from any origin
     methods: '*', // Allow all HTTP methods
@@ -25,7 +26,7 @@ app.get('/', (req, res) =>{
 })
 
 
-app.listen(backend_port, () => {
-    console.log(`server is running on port ${backend_port}`);
+app.listen(PORT, () => {
+    console.log(`server is running on port ${PORT}`);
     
 })
