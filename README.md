@@ -14,12 +14,12 @@ This server-side application is a Node.js backend developed to handle API reques
 - **Database**: Supabase for cloud-hosted PostgreSQL.
 - **ORM**: Prisma for schema management and efficient database queries.
 
-## 🌐 Live Deployment
+## 🌐 Server Deployment
 The server-side application is live and can be accessed at:
 
 [Live API](https://assignmentserver-r6wt.onrender.com)
 
-## 🌐 Live Deployment
+## 🌐 Client Deployment
 The client-side application is live and can be accessed at:
 
 [Live Demo](https://assignmentdeveshcse.netlify.app/)
